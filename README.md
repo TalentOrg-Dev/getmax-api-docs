@@ -26,7 +26,7 @@ By using GetMax’s API, you agree to our [terms of service](./TERMS.md).
 ## 2. Authentication
 
 In order to publish on behalf of a GetMax account, you will need an access token. An access token grants limited access to a user’s account. We offer browser-based OAuth authentication access tokens.
-
+```
 https://app.getmax.ai/oauth2?client_id={{clientId}}
     &scope={{scope}}
     &state={{state}}
