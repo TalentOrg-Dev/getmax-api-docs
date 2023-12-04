@@ -211,13 +211,13 @@ Possible errors:
 
 ### 3.2. Articles
 
-#### Get recent/example article list
+#### Get sample articles
 
 ```
-GET https://app.getmax.ai/api/open-apis/articles/example
+GET https://app.getmax.ai/api/open-apis/articles/sample
 ```
 
-The response is a list of article objects. Will return recently reviewed but unpublished articles. If the user has no articles, a set of example data will be returned, with the IDs of the example data being negative integers.
+The response is a list of article objects. Will return recently reviewed but unpublished articles. If the user has no articles, a set of sample data will be returned, with the IDs of the sample data being negative integers.
 
 Example response:
 
@@ -229,12 +229,12 @@ Content-Type: application/json; charset=utf-8
   "data": [
     {
       "id": -1,
-      "title": "GetMax Example Title",
+      "title": "GetMax Sample Title",
       "keywords": "keyword1, keyword2",
-      "description": "This is an example description",
-      "cover": "https://example.com/cover.png",
+      "description": "This is an sample description",
+      "cover": "https://sample.com/cover.png",
       "date": "2023-11-29T07:29:54.621Z",
-      "content": "This is an example content"
+      "content": "This is an sample content"
     }
   ]
 }
